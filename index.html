@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="important words of this web page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/5.0.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="images/food-munch-img.png" alt="Food-munch" class="food-munch-image">
+              </a>
+              <button title="Andhra food" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item"><a class="nav-link" href="#andhraFood">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#whyChooseUs">Why Choose Us</a></li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModel" href="#">Sign In</a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="menus.html">Menus</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#contactUs">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <section id="andhraFood" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+              <button type="button" title="hello" class="active" data-bs-target="#andhraFood" data-bs-slide-to="0"></button>
+              <button type="button" title="hello" data-bs-target="#andhraFood" data-bs-slide-to="1"></button>
+              <button type="button" title="hello" data-bs-target="#andhraFood" data-bs-slide-to="2"></button>
+          </div>
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img class="d-block w-100 h-50" src="images/foodmunch-banner-bg.png" alt="flower">
+              </div>
+              <div class="carousel-item">
+                  <img class="d-block w-100 h-50" src="images/pani-puri.JPG" alt="flower">
+              </div>
+  
+              <div class="carousel-item">
+                  <img class="d-block w-100 h-50" src="images/lemon-rice.jpg" alt="flower">
+              </div>
+  
+              <div class="carousel-item">
+                  <img class="d-block w-100 h-50" src="images/utappam.jpg" alt="flower">
+              </div>
+              <div class="carousel-item">
+                  <img class="d-block w-100 h-50" src="images/rice-with-dall.jpg" alt="flower">
+              </div>
+          </div>
+          <button type="button" class="carousel-control-prev" data-bs-target="#andhraFood" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" ></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button type="button" class="carousel-control-next" data-bs-target="#andhraFood" data-bs-slide="next">
+              <span class="carousel-control-next-icon" ></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+        </section>
+        <div class="modal" id="myModel">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+        
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Customer Login</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+        
+              <!-- Modal body -->
+              <div class="modal-body d-flex flex-column justify-content-center align-items-center">
+                <form action="#0" class="d-flex flex-column justify-content-center align-items-center w-75">
+                  <input class="m-2 w-100 user-input-field" type="email" placeholder="Enter email id *">
+                  <input class="m-2 w-100 user-input-field" type="password" placeholder="Password *">
+                  <div class="d-flex justify-content-between w-100">
+                    <div class="d-flex justify-content-start align-items-center">
+                      <input class="mr-2 form-check-input" type="checkbox" id="remember">
+                      <label class="text-secondary" for="remember">Remember me</label>
+                    </div>
+                    <p class="remember-text">Forgot pasword?</p>
+                  </div>
+                  <a href="./index.html" class="modal-login-btn align-self-start btn btn-success">Login</a>
+                </form>
+              </div>
+        
+              <!-- Modal footer -->
+              <div class="modal-footer d-flex flex-row justify-content-center align-items-center">
+                <p class="dont-have-acc-text">Don't have account?</p>
+                <a href="#0" class="btn btn-outline-secondary signup-btn">Signup?</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </header>
+      <main>
+        <div id="whyChooseUs">
+          <div class="bg-light pt-5 pb-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <h1 class="text-primary font-weight-bold">Why Choose Us?</h1>
+                  <p class="text-info">We use both original recipes and classic versions of famous food items.</p>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="wcu-card p-3 mb-3 text-center border border-success rounded bg-white">
+                    <img src="images/food-service.jpg" alt="Food-Service" class="wcu-card-image">
+                    <h2 class="text-dark font-weight-bold">Food Serivice</h2>
+                    <p class="text-info">Experience fine dining at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than perfect.</p>
+  
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="wcu-card p-3 mb-3 text-center border border-success rounded bg-white">
+                    <img src="images/fresh-food.jpg" alt="Food-Service" class="wcu-card-image">
+                    <h2 class="text-dark font-weight-bold">Fresh Food</h2>
+                    <p class="text-info">The Fresh Food group provides fresh-making food items
+                      directly picked from our partner farms and farm houses so that
+                      you always get them tree to plate.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="wcu-card p-3 mb-3 text-center border border-success rounded bg-white">
+                    <img src="images/offers-img.png" alt="Food-Service" class="wcu-card-image">
+                    <h2 class="text-dark font-weight-bold">Best Offers</h2>
+                    <p class="text-info">Food Coupons & Offers upto
+                      <span class="text-dark font-weight-bold">50% OFF</span>
+                      and Exclusive Promo Codes on All Online Food Orders. So use it and get maximum discounts on food items.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer id="contactUs">
+        <div class="footer-section bg-secondary pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <img src="images/food-munch-img.png" class="food-munch-image" alt="foodMunch"><br> 
+                <a href="mailto" class="text-decoration-none text-white">orderfood@foodmunch.com</a>
+                <p class="text-white font-weight-bold">123 Balaji colony, Tirupati, Andhra pradesh, India.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://cdn.usebootstrap.com/bootstrap/5.0.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.usebootstrap.com/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
